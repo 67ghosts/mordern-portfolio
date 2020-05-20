@@ -99,13 +99,13 @@
     }
 
     .nav-item {
-        // transform: translate3d(600px, 0, 0);
-        // @include easeOut;
+        transform: translate3d(600px, 0, 0);
+        @include easeOut;
 
-        // &.show {
-        //     // Slide in from Right
-        //     transform: translate3d(0, 0, 0);
-        // }
+        &.show {
+            // Slide in from Right
+            transform: translate3d(0, 0, 0);
+        }
 
         &.current>a {
             color: $secondary-color;
