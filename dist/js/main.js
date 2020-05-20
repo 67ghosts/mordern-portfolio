@@ -4,7 +4,7 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 
-const navItems = document.querySelectorAll("nav-item");
+const navItems = document.querySelectorAll(".nav-item");
 
 //Set Initial state of menu
 let showMenu = false;
@@ -12,7 +12,6 @@ let showMenu = false;
 menuBtn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
-	
 	if (!showMenu) {
 		menuBtn.classList.add("close");
 		menu.classList.add("show");
